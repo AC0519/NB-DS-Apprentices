@@ -19,7 +19,8 @@ df = load_data()
 
 st.title("Predicting Who Died on the Titanic: A Naive Bayes Approach")
 
-st.markdown("Data Source can be found here")
+st.markdown('Data Source can be found <a href="https://www.kaggle.com/datasets/yasserh/titanic-dataset">here</a>', 
+            unsafe_allow_html=True)
 
 with st.expander("See full data table"):
     st.write(df)
